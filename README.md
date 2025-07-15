@@ -21,3 +21,9 @@ The Messaging subsytem uses the following technologies:
 - PHP – For session handling
 
 The relevant API logic for database calls uses PHP and MySQL.
+
+## Project Structure
+Due to different organisational approaches between our development sub-teams during the project, the Messaging subsystem files are located directly in the root folder, while the Data Analytics subsystem files, and API files are contained within their own subfolders. This layout was kept for the final submission to ensure full functionality across the system.
+
+## Note
+This project was originally deployed and configured to run on a Google Cloud Platform (GCP) server environment, which is no longer active, however the full project code is still here for review.
