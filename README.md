@@ -17,4 +17,6 @@ The Messaging subsytem uses the following technologies:
 
 - HTML/CSS - For front-end elements and styling
 - JavaScript - For front-end interactive features, and back-end functionality 
-- PHP – For back-end functionality and API calls
+- PHP – For session handling
+
+The relevant API logic for database calls uses PHP and MySQL.
