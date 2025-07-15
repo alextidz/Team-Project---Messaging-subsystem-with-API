@@ -9,7 +9,8 @@ The Messaging subsystem contains the following functionality:
 - Send and receive messages between individual users
 - Send and receive messages in group chats
 - Message status tracking (delivered, opened)
-- Add user's as friends
+- Live updates, enabling real-time receiving of messages
+- Add users as friends
 - API calls for all database interactions  
 
 ## Technologies Used
