@@ -1,31 +1,20 @@
 # Team-Project---Messaging-Subsystem-with-API-Integration 
 
 ## Overview
-This project was developed as part of a university team assignment. The objective was to build a modular system that uses a central API to handle all database interactions. The system is composed of two key subsystems:
+This project was developed for a university team projects module. The project we were assigned involved developing two subsytems, as well as a central API used by both to handle database interactions. This included a Data Analaytics subsystem and a Messaging subsystem. I played a large role in contributing to the development of all aspects of the Messaging subsystem, including front-end, back-end logic, and API requests.
 
-Data Analytics Subsystem
+## Key Features
+The Messaging subsystem contains the following functionality:
 
-Messaging Subsystem (this repository)
+- Send and receive messages between individual users
+- Send and receive messages in group chats
+- Message status tracking (delivered, opened)
+- Add user's as friends
+- API calls for all database interactions  
 
-Each subsystem was responsible for interfacing with the API rather than interacting with the database directly.
+## Technologies Used
+The Messaging subsytem uses the following technologies:
 
-Messaging Subsystem
-This repository contains the Messaging Subsystem, which I was responsible for. It allows users to send, receive, and manage messages within the platform. All communication with the database is done via API calls to ensure a consistent and secure architecture.
-
-Key Features
-Send and receive user messages
-
-Inbox and outbox views
-
-Message status tracking (read/unread)
-
-API-based interaction for all data operations
-
-Technologies Used
-PHP – for backend functionality and API integration
-
-JavaScript – for client-side interactivity
-
-MySQL – as the database solution (accessed via API)
-
-HTML/CSS – for structure and styling
+- HTML/CSS - For front-end elements and styling
+- JavaScript - For front-end interactive features, and back-end functionality 
+- PHP – For back-end functionality and API calls
