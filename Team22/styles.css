@@ -1,0 +1,122 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fffaf9;
+}
+
+.container {
+    width: 60%;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
+}
+
+.left-container {
+    width: 50%; 
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.left-container img {
+    width: 100%; 
+    max-width: 100%; 
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.right-container {
+    width: 50%; 
+    padding: 20px; 
+    background-color: #ffffff;
+    margin: 40;
+    align-items: center;
+}
+
+.right-container img {
+    width: 60%; 
+    max-width: 80%; 
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    align-items:center;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.textbox,
+.textbox2 {
+    width: calc(100% - 20px); 
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.textbox:hover,
+.textbox2:hover {
+    border-color: blue;
+}
+
+.button {
+    width: 100%; 
+    padding: 10px;
+    background-color: #fe6817;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.3s ease; 
+}
+
+.button:hover {
+    transform: scale(1.05); 
+    background-color: #db5c17;
+}
+
+input[type="checkbox"] {
+    accent-color: #fe6817;  
+    transform: scale(1);
+    transition: transform 0.3s ease
+}
+input[type="checkbox"]:hover {
+    transform: scale(1.1); 
+}
+
+input[type="checkbox"] {
+    accent-color: #fe6817;  
+    transform: scale(1);
+    transition: transform 0.3s ease
+}
+@media (max-width: 720px) {
+    .container {
+        flex-basis: 100%
+    }
+}
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
