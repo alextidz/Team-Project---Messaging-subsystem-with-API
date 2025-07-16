@@ -1,4 +1,4 @@
-# Team-Project---Messaging-Subsystem-with-API-Integration 
+# Team Project - Messaging Subsystem with API Integration 
 
 ## Overview
 This project was developed for a university team projects module. The project we were assigned involved developing two subsytems, as well as a central API used by both to handle database interactions. This included a Data Analaytics subsystem and a Messaging subsystem. I played a large role in contributing to the development of all aspects of the Messaging subsystem, including front-end, back-end logic, and API requests.
